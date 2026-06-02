@@ -124,7 +124,7 @@ All visualizations are created using Matplotlib and Seaborn to understand:
 ```text
 Superstore_Sales_Analysis/
 │
-├── images/
+├── Images/
 │   ├── salesByRegion.png
 │   ├── MostProfitableStates.png
 │   ├── topsalescategories.png
