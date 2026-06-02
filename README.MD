@@ -1,12 +1,5 @@
 # 📊 Superstore Sales Analysis (SQL + Python)
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange.svg)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple.svg)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green.svg)
-![Seaborn](https://img.shields.io/badge/Seaborn-EDA-lightblue.svg)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen.svg)
-
 ---
 
 # 📑 Table of Contents
@@ -64,19 +57,47 @@ Python connects to MySQL using mysql.connector and retrieves data using pandas.r
 # 📊 Analysis Performed
 
 ## 🌍 Sales by Region
-![Region Sales](images/salesByRegion.png)
+
+This analysis compares total sales generated across different regions.
+It helps identify the strongest and weakest performing regions in terms of revenue.
+
+![Sales by Region Bar Chart](images/salesByRegion.png)
+
+---
 
 ## 🏆 Most Profitable States
-![Profitable States](images/MostProfitableStates.png)
+
+This chart highlights the top states contributing the highest profit.
+Understanding profitable locations helps businesses focus their growth strategies.
+
+![Top Profitable States Visualization](images/MostProfitableState.png)
+
+---
 
 ## 🏷 Top Categories
-![Category Sales](images/topsalescategories.png)
+
+This analysis shows which product categories generate the highest sales.
+It helps identify the most important product groups driving revenue.
+
+![Category Sales Comparison](images/topsalescategories.png)
+
+---
 
 ## 📉 Discount vs Profit
-![Discount Profit](images/discountVsProfit.png)
+
+This visualization examines the relationship between discounts and profitability.
+It helps determine whether larger discounts positively or negatively impact profits.
+
+![Discount Versus Profit Scatter Plot](images/discountVsProfit.png)
+
+---
 
 ## 🚚 Shipping Mode Usage
-![Shipping Mode](images/orderbyShipmode.png)
+
+This chart displays the distribution of orders across different shipping modes.
+It provides insights into customer delivery preferences and logistics patterns.
+
+![Shipping Mode Distribution Pie Chart](images/orderbyShipmode.png)
 
 ---
 
@@ -100,10 +121,9 @@ All visualizations are created using Matplotlib and Seaborn to understand:
 
 # 📂 Project Structure
 
-superstore-analysis/
+```text
+Superstore_Sales_Analysis/
 │
-├── superstore_analysis.ipynb
-├── superstore_queries.sql
 ├── images/
 │   ├── salesByRegion.png
 │   ├── MostProfitableStates.png
@@ -111,14 +131,18 @@ superstore-analysis/
 │   ├── discountVsProfit.png
 │   └── orderbyShipmode.png
 │
-└── README.md
+├── README.md
+├── SampleSuperstore.csv
+├── Sales-Performance-Analysis.ipynb
+└── superstore_queries.sql
+```
 
 ---
 
 # 🚀 How to Run the Project
 
 ## 1️⃣ Clone Repository
-git clone https://github.com/your-username/superstore-analysis.git
+git clone https://github.com/sushil0126/Superstore_Sales-Analysis.git 
 
 ## 2️⃣ Install Dependencies
 pip install pandas numpy matplotlib seaborn mysql-connector-python
